@@ -4,6 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh "echo this is BUILD"
+                sh "echo this is updated version"
             }
         }
         stage('Test') {
